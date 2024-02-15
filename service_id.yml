@@ -1,0 +1,29 @@
+? ''
+: 0
+'## dynamodb_to_python': 21
+'## generate_ttl': 13
+'## get_cart_id': 14
+'## get_headers': 15
+'## get_product_from_external_service': 16
+'## handle_decimal_type': 6
+'## lambda_handler': 5
+AddToCart: 12
+'Attempt #1': 23
+'Attempt #8': 27
+CartDBStream: 20
+CartDBStream:live: 22
+CheckoutCart: 25
+DynamoDB: 7
+GetCartTotal: 1
+GetProduct: 11
+GetProducts: 19
+Initialization: 26
+Invocation: 4
+Lambda: 3
+ListCart: 24
+MigrateCart: 18
+Overhead: 9
+a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 8
+amplify-aws-serverless-shopping-cart-product-mock/Prod: 10
+amplify-aws-serverless-shopping-cart-shoppingcart-service/Prod: 2
+hguvg0o022.execute-api.us-west-1.amazonaws.com: 17

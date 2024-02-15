@@ -1,0 +1,161 @@
+? ''
+: 0
+'## dynamodb_to_python/CartDBStream/Invocation/## lambda_handler/## dynamodb_to_python': 120
+'## generate_ttl/AddToCart/Invocation/## lambda_handler/## generate_ttl': 98
+'## get_cart_id/AddToCart/Invocation/## lambda_handler/## get_cart_id': 99
+'## get_cart_id/CheckoutCart/Invocation/## lambda_handler/## get_cart_id': 139
+'## get_cart_id/ListCart/Invocation/## lambda_handler/## get_cart_id': 130
+'## get_cart_id/MigrateCart/Invocation/## lambda_handler/## get_cart_id': 108
+'## get_headers/AddToCart/Invocation/## lambda_handler/## get_headers': 100
+'## get_headers/CheckoutCart/Invocation/## lambda_handler/## get_headers': 138
+'## get_headers/ListCart/Invocation/## lambda_handler/## get_headers': 131
+'## get_headers/MigrateCart/Invocation/## lambda_handler/## get_headers': 109
+'## get_product_from_external_service/AddToCart/Invocation/## lambda_handler/## get_product_from_external_service': 102
+'## handle_decimal_type/GetCartTotal/Invocation/## lambda_handler/## handle_decimal_type': 80
+'## lambda_handler/AddToCart/Invocation/## lambda_handler': 97
+'## lambda_handler/CartDBStream/Invocation/## lambda_handler': 119
+'## lambda_handler/CheckoutCart/Invocation/## lambda_handler': 136
+'## lambda_handler/GetCartTotal/Invocation/## lambda_handler': 79
+'## lambda_handler/GetProduct/Invocation/## lambda_handler': 90
+'## lambda_handler/GetProducts/Invocation/## lambda_handler': 114
+'## lambda_handler/ListCart/Invocation/## lambda_handler': 129
+'## lambda_handler/MigrateCart/Invocation/## lambda_handler': 107
+AddToCart: 19
+AddToCart/AddToCart: 93
+AddToCart/Initialization: 67
+AddToCart/Invocation: 21
+AddToCart/Invocation/## lambda_handler: 23
+AddToCart/Invocation/## lambda_handler/## generate_ttl: 24
+AddToCart/Invocation/## lambda_handler/## get_cart_id: 25
+AddToCart/Invocation/## lambda_handler/## get_headers: 26
+AddToCart/Invocation/## lambda_handler/## get_product_from_external_service: 28
+AddToCart/Invocation/## lambda_handler/## get_product_from_external_service/hguvg0o022.execute-api.us-west-1.amazonaws.com: 29
+AddToCart/Invocation/## lambda_handler/DynamoDB: 27
+AddToCart/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 22
+AddToCart/Overhead: 20
+'Attempt #1/CartDBStream:live/Attempt #1': 125
+'Attempt #8/CartDBStream:live/Attempt #8': 148
+CartDBStream: 43
+CartDBStream/CartDBStream: 117
+CartDBStream/Initialization: 69
+CartDBStream/Invocation: 44
+CartDBStream/Invocation/## lambda_handler: 45
+CartDBStream/Invocation/## lambda_handler/## dynamodb_to_python: 46
+CartDBStream/Invocation/## lambda_handler/DynamoDB: 47
+CartDBStream/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 48
+CartDBStream/Overhead: 49
+CartDBStream:live: 50
+'CartDBStream:live/Attempt #1': 51
+'CartDBStream:live/Attempt #8': 74
+CartDBStream:live/CartDBStream:live: 124
+CheckoutCart: 59
+CheckoutCart/CheckoutCart: 133
+CheckoutCart/Initialization: 71
+CheckoutCart/Invocation: 61
+CheckoutCart/Invocation/## lambda_handler: 62
+CheckoutCart/Invocation/## lambda_handler/## get_cart_id: 65
+CheckoutCart/Invocation/## lambda_handler/## get_headers: 64
+CheckoutCart/Invocation/## lambda_handler/DynamoDB: 63
+CheckoutCart/Overhead: 60
+DynamoDB: 11
+DynamoDB/AddToCart/Invocation/## lambda_handler/DynamoDB: 101
+DynamoDB/CartDBStream/Invocation/## lambda_handler/DynamoDB: 121
+DynamoDB/CheckoutCart/Invocation/## lambda_handler/DynamoDB: 137
+DynamoDB/DynamoDB: 85
+DynamoDB/GetCartTotal/Invocation/## lambda_handler/DynamoDB: 81
+DynamoDB/MigrateCart/Invocation/## lambda_handler/DynamoDB: 110
+GetCartTotal: 1
+GetCartTotal/GetCartTotal: 75
+GetCartTotal/Initialization: 66
+GetCartTotal/Invocation: 4
+GetCartTotal/Invocation/## lambda_handler: 5
+GetCartTotal/Invocation/## lambda_handler/## handle_decimal_type: 6
+GetCartTotal/Invocation/## lambda_handler/DynamoDB: 7
+GetCartTotal/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 8
+GetCartTotal/Overhead: 9
+GetProduct: 14
+GetProduct/GetProduct: 88
+GetProduct/Initialization: 72
+GetProduct/Invocation: 15
+GetProduct/Invocation/## lambda_handler: 16
+GetProduct/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 17
+GetProduct/Overhead: 18
+GetProducts: 38
+GetProducts/GetProducts: 112
+GetProducts/Initialization: 68
+GetProducts/Invocation: 39
+GetProducts/Invocation/## lambda_handler: 40
+GetProducts/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 41
+GetProducts/Overhead: 42
+Initialization/AddToCart/Initialization: 141
+Initialization/CartDBStream/Initialization: 143
+Initialization/CheckoutCart/Initialization: 145
+Initialization/GetCartTotal/Initialization: 140
+Initialization/GetProduct/Initialization: 146
+Initialization/GetProducts/Initialization: 142
+Initialization/ListCart/Initialization: 147
+Initialization/MigrateCart/Initialization: 144
+Invocation/AddToCart/Invocation: 95
+Invocation/CartDBStream/Invocation: 118
+Invocation/CheckoutCart/Invocation: 135
+Invocation/GetCartTotal/Invocation: 78
+Invocation/GetProduct/Invocation: 89
+Invocation/GetProducts/Invocation: 113
+Invocation/ListCart/Invocation: 127
+Invocation/MigrateCart/Invocation: 106
+Lambda/amplify-aws-serverless-shopping-cart-product-mock/Prod/Lambda: 87
+Lambda/amplify-aws-serverless-shopping-cart-shoppingcart-service/Prod/Lambda: 77
+ListCart: 52
+ListCart/Initialization: 73
+ListCart/Invocation: 53
+ListCart/Invocation/## lambda_handler: 55
+ListCart/Invocation/## lambda_handler/## get_cart_id: 56
+ListCart/Invocation/## lambda_handler/## get_headers: 57
+ListCart/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 54
+ListCart/ListCart: 126
+ListCart/Overhead: 58
+MigrateCart: 30
+MigrateCart/Initialization: 70
+MigrateCart/Invocation: 32
+MigrateCart/Invocation/## lambda_handler: 33
+MigrateCart/Invocation/## lambda_handler/## get_cart_id: 34
+MigrateCart/Invocation/## lambda_handler/## get_headers: 35
+MigrateCart/Invocation/## lambda_handler/DynamoDB: 36
+MigrateCart/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 37
+MigrateCart/MigrateCart: 104
+MigrateCart/Overhead: 31
+Overhead/AddToCart/Overhead: 94
+Overhead/CartDBStream/Overhead: 123
+Overhead/CheckoutCart/Overhead: 134
+Overhead/GetCartTotal/Overhead: 83
+Overhead/GetProduct/Overhead: 92
+Overhead/GetProducts/Overhead: 116
+Overhead/ListCart/Overhead: 132
+Overhead/MigrateCart/Overhead: 105
+a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com: 10
+? a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com/AddToCart/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com
+: 96
+? a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com/CartDBStream/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com
+: 122
+? a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com/GetCartTotal/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com
+: 82
+? a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com/GetProduct/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com
+: 91
+? a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com/GetProducts/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com
+: 115
+? a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com/ListCart/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com
+: 128
+? a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com/MigrateCart/Invocation/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com
+: 111
+? a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com/a6571da68774441f194b4177114574a7-1107048865.us-east-2.elb.amazonaws.com
+: 84
+amplify-aws-serverless-shopping-cart-product-mock/Prod: 12
+amplify-aws-serverless-shopping-cart-product-mock/Prod/Lambda: 13
+amplify-aws-serverless-shopping-cart-product-mock/Prod/amplify-aws-serverless-shopping-cart-product-mock/Prod: 86
+amplify-aws-serverless-shopping-cart-shoppingcart-service/Prod: 2
+amplify-aws-serverless-shopping-cart-shoppingcart-service/Prod/Lambda: 3
+? amplify-aws-serverless-shopping-cart-shoppingcart-service/Prod/amplify-aws-serverless-shopping-cart-shoppingcart-service/Prod
+: 76
+? hguvg0o022.execute-api.us-west-1.amazonaws.com/AddToCart/Invocation/## lambda_handler/##
+  get_product_from_external_service/hguvg0o022.execute-api.us-west-1.amazonaws.com
+: 103
